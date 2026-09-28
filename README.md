@@ -95,6 +95,7 @@ This documentation-first repository tracks academic and industrial progress in a
 | [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | BAIR-NLP | research-release | B | A tiered memory architecture aimed at long-term personalized AI interaction. | Research prototype; repository availability and APIs should be rechecked before use. |
 | [MemOS](https://github.com/MemTensor/MemOS) | MemTensor | research-release | B | A research system treating memory objects and their lifecycle as operating-system resources. | Early-stage research software; validate interfaces and production readiness independently. |
 | [MIRIX](https://github.com/Mirix-AI/MIRIX) | MIRIX-AI | research-release | B | A multi-agent memory architecture separating multiple forms of long-term memory. | Claims are primarily supported by the associated preprint and project artifacts. |
+| [Reef](https://github.com/Human-Agent-Society/reef) | Human-Agent-Society | open-source | B | Records agent interactions behind OpenAI- and Anthropic-compatible endpoints and turns matched feedback into versioned updates to model weights or the agent harness. | No published benchmark results for its own improvement claims; the updater, feedback matching, and selection policy are operator-defined and fixed across rounds. |
 
 ## Reading lists
 
