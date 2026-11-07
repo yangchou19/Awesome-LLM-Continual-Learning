@@ -88,6 +88,7 @@ This documentation-first repository tracks academic and industrial progress in a
 
 | Project | Organization | Kind | Evidence | Summary | Caveat |
 |---|---|---|:---:|---|---|
+| [agent-qa](https://vostride.com) | vostride | QA agent | B | Builds reusable [memidex](https://vostride.com/docs/agent-qa/memory) app facts, cautions and procedures from verified test evidence, with gated promotion and later outcome feedback. | [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md); improves application knowledge, not model weights; CI only proposes candidates. |
 | [Graphiti](https://github.com/getzep/graphiti) | Zep | open-source | B | A temporal knowledge-graph engine designed for changing facts and agent memory. | Graph construction and entity resolution add operational and quality trade-offs. |
 | [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Louis Beaumont | open-source | B | Rust knowledge store with encrypted, signed append-only records, device sync, and scoped, expiring MCP access grants. | Developer alpha; grants do not sandbox local processes, and hosted models can see returned plaintext. |
 | [LangMem](https://github.com/langchain-ai/langmem) | LangChain | open-source | B | Utilities for extracting, consolidating, and using long-term memories in agent workflows. | Framework integration can couple memory semantics to a particular orchestration stack. |

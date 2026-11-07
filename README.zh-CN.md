@@ -88,6 +88,7 @@
 
 | Project | Organization | Kind | Evidence | Summary | Caveat |
 |---|---|---|:---:|---|---|
+| [agent-qa](https://vostride.com) | vostride | QA 智能体 | B | 从已验证的测试证据中提炼 [memidex](https://vostride.com/docs/agent-qa/memory) 应用事实、注意事项与操作流程，通过门控晋升和后续结果反馈复用知识。 | 采用 [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md)；改进应用知识而非模型权重；CI 仅提出候选。 |
 | [Graphiti](https://github.com/getzep/graphiti) | Zep | open-source | B | A temporal knowledge-graph engine designed for changing facts and agent memory. | Graph construction and entity resolution add operational and quality trade-offs. |
 | [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Louis Beaumont | open-source | B | Rust 知识存储，提供加密、签名的只追加记录、设备同步，以及有范围和有效期限制的 MCP 访问授权。 | 开发者 alpha 阶段；授权不会隔离本地进程，托管模型可看到返回的明文。 |
 | [LangMem](https://github.com/langchain-ai/langmem) | LangChain | open-source | B | Utilities for extracting, consolidating, and using long-term memories in agent workflows. | Framework integration can couple memory semantics to a particular orchestration stack. |
